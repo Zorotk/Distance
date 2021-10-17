@@ -42,7 +42,7 @@ const distance = (values) => {
 
     return (
         <div className='distance'>{coordinats.map((el, i) => (<div
-            style={{background:el<3?'orange':'green'}}
+            style={{background:el<3?'#fff0da':'#d8ffbd'}}
             className='item' onClick={() => setCoordinats(i,el)} key={i}>{el}</div>))}</div>
     );
 }
